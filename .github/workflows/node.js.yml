@@ -27,3 +27,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm start
+    - run: miraiBot@1.2.8 start /home/runner/miraiv2-16
+    - run: node index
